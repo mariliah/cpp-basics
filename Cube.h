@@ -4,13 +4,16 @@
 
 #pragma once // always present in h files, compiler will run this only ONCE
 
-class Cube
+namespace uiuc
 {
-public:
-    double getVolume();
-    double getSurfaceArea();
-    void setLength(double length);
+    class Cube
+    {
+    public:
+        double getVolume();
+        double getSurfaceArea();
+        void setLength(double length);
 
-private:
-    double length_;
-};
+    private:
+        double length_;
+    };
+}

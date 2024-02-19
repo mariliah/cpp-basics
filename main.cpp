@@ -1,13 +1,16 @@
 #include "Cube.h"
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    Cube c;
-
-    c.setLength(3.48);
+    uiuc::Cube c;
+    c.setLength(2.4);
     double volume = c.getVolume();
-    std::cout << "Volume: " << volume << std::endl;
+    cout << "Volume: " << volume << endl;
 
+    double surfaceArea = c.getSurfaceArea();
+    cout << "Surface Area: " << surfaceArea << endl;
     return 0;
 }
