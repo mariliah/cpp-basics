@@ -1,4 +1,5 @@
 #include "Cube.h"
+#include <iostream>
 
 int main()
 {
